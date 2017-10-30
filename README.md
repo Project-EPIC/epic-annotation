@@ -1,2 +1,2 @@
 # epic-annotation
-Annotated data produced for Project EPIC, including part-of-speech tagging, SRL, and CHIME annotation
+Annotation data released under Project Epic. Includes named entities, situational awareness, CHIME annotation, and others.
