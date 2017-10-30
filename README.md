@@ -7,7 +7,7 @@ Annotation data released under Project Epic. We're still working on the collecte
   <tr><td><a href="http://www.aclweb.org/anthology/W16-6201">CHIME Classication</a> for Hurricane Sandy</td><td>7490</td></tr>
   <tr><td>*Part-of-speech tagging for a variety of events</td><td/></tr>
   <tr><td>*Semantic role labeling for a variety of events</td><td/></tr>
-  <tr><td>*<a href="https://www.aaai.org/ocs/index.php/ICWSM/ICWSM11/paper/download/.../3282">Situational Awareness</a> annotation for 4 events</td><td/></tr>
+  <tr><td>*<a href="http://www.aaai.org/ocs/index.php/ICWSM/ICWSM11/paper/download/2834/3282">Situational Awareness</a> annotation for 4 events</td><td/></tr>
 </table>
 *Will be available soon
 
