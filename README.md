@@ -7,8 +7,9 @@ Annotation data released under Project Epic. We're still working on the collecte
   <tr><td><a href="http://www.aclweb.org/anthology/W16-6201">CHIME Classication</a> for Hurricane Sandy</td><td>7490</td></tr>
   <tr><td>*Part-of-speech tagging for a variety of events</td><td/></tr>
   <tr><td>*Semantic role labeling for a variety of events</td><td/></tr>
-  <tr><td>*<a href="http://www.aaai.org/ocs/index.php/ICWSM/ICWSM11/paper/download/2834/3282">Situational Awareness</a> annotation for 4 events</td><td/></tr>
+  <tr><td><a href="http://www.aaai.org/ocs/index.php/ICWSM/ICWSM11/paper/download/2834/3282">Situational Awareness</a> annotation for 3 events**</td><td>1500</td></tr>
 </table>
 *Will be available soon
+**OK Fire data lacked Tweet IDs, making it difficult to release in accordance with Twitter and IRB concerns. We are working on a solution.
 
 The data provided includes only annotations, and not original tweets, as these are not available through the university. For access to the tweets, please see the <a href="https://github.com/Project-EPIC/epic-annotation/blob/master/Epic%20Tweet%20Documentation.pdf">Epic Tweet Documentation</a>.
