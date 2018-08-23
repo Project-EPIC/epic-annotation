@@ -1,4 +1,6 @@
 # epic-annotation
+**The new data from the paper <b>Developing and Evaluating Annotation Procedures for Twitter Data During Hurricane Events</b> from the LAW-MXE-CxG workshop (2018) will be available soon, under annotations/CHIME-2018. We are still working on creating publishable versions of the dataset and the guidelines. Thank you for your patience.**
+
 Annotation data released under Project Epic. We're still working on the collected data; here's what is and what will be available:
 
 <table>
