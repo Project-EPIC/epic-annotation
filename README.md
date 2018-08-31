@@ -18,6 +18,6 @@ Annotation data released under Project Epic. We're still working on the collecte
 
 The data provided includes only annotations, and not original tweets, as these are not available through the university. For access to the tweets, please see the <a href="https://github.com/Project-EPIC/epic-annotation/blob/master/Epic%20Tweet%20Documentation.pdf">Epic Tweet Documentation</a>.
 
-For any questions, please contact
-Kevin Stowe
-kevin.stowe@colorado.edu
+For any questions, please contact<br>
+Kevin Stowe<br>
+kevin.stowe@colorado.edu<br>
