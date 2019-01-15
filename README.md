@@ -1,5 +1,5 @@
 # epic-annotation
-**The guidelines from the paper <b>Developing and Evaluating Annotation Procedures for Twitter Data During Hurricane Events</b> from the LAW-MXE-CxG workshop (2018) will be available soon, under annotations/CHIME-2018. We are still working on creating publishable versions of the guidelines. The annotations are now available. Thank you for your patience.**
+**SRL Data for Hurricane Gustav and the Red River floods now available in annotations/SRL**
 
 Annotation data released under Project Epic. We're still working on the collected data; here's what is and what will be available:
 
@@ -16,7 +16,7 @@ Annotation data released under Project Epic. We're still working on the collecte
 *Will be available soon<br>
 **OK Fire data lacked Tweet IDs, making it difficult to release in accordance with Twitter and IRB concerns. We are working on a solution.
 
-The data provided includes only annotations, and not original tweets, as these are not available through the university. For access to the tweets, please see the <a href="https://github.com/Project-EPIC/epic-annotation/blob/master/Epic%20Tweet%20Documentation.pdf">Epic Tweet Documentation</a>.
+The data provided includes only annotations, and not original tweets, as these are not available through the university. For access to the tweets, please see the <a href="https://github.com/Project-EPIC/epic-annotation/blob/master/Epic%20Tweet%20Documentation.pdf">Epic Tweet Documentation</a>. We've released SRL data for Hurricane Gustav and the Red River floods with the original text, as we were unable to reconstruct the SRL information using only Tweet IDs.
 
 For any questions, please contact<br>
 Kevin Stowe<br>
