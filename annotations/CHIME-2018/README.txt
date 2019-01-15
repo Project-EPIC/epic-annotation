@@ -6,6 +6,9 @@ Construction Grammar (LAW-MWE-CxG) workshop, held with Coling 2018.
 Kevin Stowe, Martha Palmer, Jennings Anderson, Marina Kogan, Leysia Palen, Kenneth M. Anderson, Rebecca Morss,
 Julie Demuth and Heather Lazrus
 
+The guidelines will be available soon, under annotations/CHIME-2018. We are still working on creating publishable versions of the guidelines. The annotations are currently available. Thank you for your patience.
+
+
 The release includes two JSON files: one for the all of the <b>Relevance</b> annotation, which contains ~25,000 tweets
 annotated with binary hurricane relevance, and one with the final version of annotation for ~2,000 tweets using
 the most current scheme (Scheme 4). Guidelines for this annotation scheme will also be provided. Both files share the
