@@ -52,7 +52,7 @@ These tweess are annotated with named entity tags based on the <a href="https://
 
 # Semantic Role Labelling
 
-Semantic Role Labelling involves annotation of the important semantic entities within a sentence and the syntactic relations between them. More generally, we aim to identify who did what to whom. The SRL data annotated for Project EPIC is over two events: Hurricane Gustiv and the Red River floods. This data is based on PropBank annotation, and is presented in an Excel style format. Each line contains a word, along with the word's index in the tweet, part of speech, dependency relation and semantic role. The semantic roles are the final column: they indicate the verb that the word is a role of (via it's index), as well as the type of argument. These types are:
+Semantic Role Labelling involves annotation of the important semantic entities within a sentence and the syntactic relations between them. More generally, we aim to identify who did what to whom. The SRL data annotated for Project EPIC is over two events: Hurricane Gustiv and the Red River floods. This data is based on <a href="http://clear.colorado.edu/compsem/documents/propbank_guidelines.pdf">PropBank annotation</a>, and is presented in an Excel style format. Each line contains a word, along with the word's index in the tweet, part of speech, dependency relation and semantic role. The semantic roles are the final column: they indicate the verb that the word is a role of (via it's index), as well as the type of argument. These types are:
 
 <ul>
   <li>A0: ARG0</li>
