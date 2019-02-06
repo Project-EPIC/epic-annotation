@@ -72,9 +72,10 @@ For example, consider the following tweet:<br/>
 <tr><td>5</td><td>May</td><td>may</td><td>MD</td><td>_</td><td>0</td><td>ROOT</td><td>_</td><td>7:AM-MOD</td></tr>
 <tr><td>6</td><td>it</td><td>it</td><td>PRP</td><td>_</td><td>5</td><td>SBJ</td><td>_</td><td>7:A0</td></tr>
 <tr><td>7</td><td>bring</td><td>bring</td><td>VB</td><td>_</td><td>5</td><td>VC</td><td>bring.XX</td><td>_</td></tr>
-8	minimal	minimal	JJ	_	9	NMOD	_	_ <br/>
-9	damage	damage	NN	_	7	OBJ	_	7:A1 <br/>
-10	.	.	.	_	5	P	_	_ <br/>
+<tr><td>8</td><td>minimal</td><td>minimal</td><td>JJ</td><td>_</td><td>9</td><td>NMOD</td><td>_</td><td>_</td></tr>
+<tr><td>9</td><td>damage</td><td>damage</td><td>NN</td><td>_</td><td>7</td><td>OBJ</td><td>_</td><td>7:A1</td></tr>
+  <tr><td>10</td><td>.</td><td>.</td><td>.</td><td>_</td><td>5</td><td>P</td><td>_</td><td>_</td></tr>
+  </table>
 
 Here, the verbs are "think", indexed 1, and "bring", indexed 7. The phrase "of Gustav" is the ARG1 of "think", marked by the index of the verb on "of": 1:A1. "May" is a modal (MOD) modifier of "bring", marked 7:AM-MOD. The pronoun "it" is the ARG0 of bring (7:A0), and the phrase "minimal damage" is the ARG1 of bring (7:A1 on "damage").
 
