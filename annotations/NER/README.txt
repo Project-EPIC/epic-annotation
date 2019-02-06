@@ -1,23 +1,9 @@
 -------------------------------------------------------------------------
 NER DATA
 ---------
-Structure
+This annotation is based on the paper <a href="http://www.lrec-conf.org/proceedings/lrec2012/pdf/1008_Paper.pdf">Foundations of a Multilayer Annotation Framework for Twitter</a>. They describe collection of tweets for five events, searching on certain hand-curated keywords. These were then filtered down into usable datasets. For a full description of the data collection process, see <a href="https://ieeexplore.ieee.org/document/6032533">Anderson and Schram, 2009</a>.
 
-NER Data is organized by Event. Each Event has a .json file with the
-following format:
-Keys : Tweet_Ids
-
-data[key] =
-  {"tweet_id":tweet_id_string
-  "event":event_name
-  "anns":list of tuples consisting of [span_start, span_end,
-  named_entity_category]
-  ("text", for CU data:string text of the tweet)
-  }
-
---------
-Data
-
+Based on these methods, named entities were tagged over the following events:
 The Events, with the number of tweets for each JSON:
 *Colorado_Wildfires_June_2012.json : 741
 *Dallas_Tornado_April_2012.json : 475
@@ -36,5 +22,29 @@ Total : 18081
 
 * - These datasets may not have been collected with accurate Tweet IDs, and thus they may not be recoverable from the Twitter API. We are looking into possibilities for restoring
 accurate tweet ids.
+
+These tweess are annotated with named entity tags based on the <a href="https://www.ldc.upenn.edu/sites/www.ldc.upenn.edu/files/english-entities-guidelines-v6.6.pdf">Automatic Content Extraction guidelines</a> for entities. The tags annotated are:
+
+<ul>
+  <li>PERSON</li>
+  <li>ARTIFACT</li>
+  <li>ORGANIZATION</li>
+  <li>LOCATION</li>
+  <li>FACILITY</li>
+</ul>
+ These annotations are provided along with the span of text for the tweet annotated. For information on how to extract the original tweet texts, please see the <a href="https://github.com/Project-EPIC/epic-annotation/blob/master/Epic%20Tweet%20Documentation.pdf">Epic Tweet Documentation</a>.
+
+#Structure
+
+NER Data is organized by Event. Each Event has a .json file with the
+following format:
+Keys : Tweet_Ids
+
+data[key] =
+  {"tweet_id":tweet_id_string
+  "event":event_name
+  "anns":list of tuples consisting of [span_start, span_end,
+  named_entity_category]
+  }
 
 ------------------------------------------------------------------------
