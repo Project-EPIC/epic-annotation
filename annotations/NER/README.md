@@ -5,17 +5,19 @@ This annotation is based on the paper <a href="http://www.lrec-conf.org/proceedi
 
 Based on these methods, named entities were tagged over the following events:
 The Events, with the number of tweets for each JSON:
-\*Colorado_Wildfires_June_2012.json : 741
-\*Dallas_Tornado_April_2012.json : 475
-\*Haiti_Earthquake.json : 480
-\*High_Park_Fire.json : 344
-Hurricane_Sandy_Random_Tweets.json : 716
-*Lower_North_Fork_Fire.json : 239
-*New_Mexico_Fire_June_2012.json : 122
-*New_Zealand_Earthquake.json : 1227
-Red_River_2009.json : 12885
-Red_River_2010.json : 450
-Winter_Storm_Nemo.json : 402
+<ul>
+  <li>*Colorado_Wildfires_June_2012.json : 741</li>
+<li>*Dallas_Tornado_April_2012.json : 475</li>
+<li>*Haiti_Earthquake.json : 480</li>
+<li>*High_Park_Fire.json : 344</li>
+<li>Hurricane_Sandy_Random_Tweets.json : 716</li>
+<li>Lower_North_Fork_Fire.json : 239</li>
+<li>New_Mexico_Fire_June_2012.json : 122</li>
+<li>New_Zealand_Earthquake.json : 1227</li>
+<li>Red_River_2009.json : 12885</li>
+<li>Red_River_2010.json : 450</li>
+<li>Winter_Storm_Nemo.json : 402</li>
+</ul>
 
 Total : 18081
 *Total : 3610
