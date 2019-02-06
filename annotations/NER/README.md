@@ -39,14 +39,15 @@ These tweess are annotated with named entity tags based on the <a href="https://
 # Structure
 
 NER Data is organized by Event. Each Event has a .json file with the
-following format:
-Keys : Tweet_Ids
+following format:<br/>
 
-data[key] =
-  {"tweet_id":tweet_id_string
-  "event":event_name
-  "anns":list of tuples consisting of [span_start, span_end,
-  named_entity_category]
+Keys : Tweet_Ids<br/>
+
+data[key] = <br/>
+  {"tweet_id":tweet_id_string<br/>
+  "event":event_name<br/>
+  "anns":list of tuples consisting of [span_start, span_end,</br>
+  named_entity_category]<br/>
   }
 
 ------------------------------------------------------------------------
