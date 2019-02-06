@@ -35,9 +35,8 @@ The Events, with the number of tweets for each JSON:
 </ul>
 
 Total : 18081
-*Total : 3610
 
-* - These datasets may not have been collected with accurate Tweet IDs, and thus they may not be recoverable from the Twitter API. We are looking into possibilities for restoring
+* These datasets may not have been collected with accurate Tweet IDs, and thus they may not be recoverable from the Twitter API. We are looking into possibilities for restoring
 accurate tweet ids.
 
 These tweess are annotated with named entity tags based on the <a href="https://www.ldc.upenn.edu/sites/www.ldc.upenn.edu/files/english-entities-guidelines-v6.6.pdf">Automatic Content Extraction guidelines</a> for entities. The tags annotated are:
@@ -64,16 +63,17 @@ Semantic Role Labelling involves annotation of the important semantic entities w
 
 For example, consider the following tweet:<br/>
 
-1	Thinking	think	VBG	_	5	DEP	think.XX	_
-2	of	of	IN	_	1	ADV	_	1:A1
-3	Gustav	gustav	NNP	_	2	PMOD	_	_
-4	.	.	.	_	1	P	_	_
-5	May	may	MD	_	0	ROOT	_	7:AM-MOD
-6	it	it	PRP	_	5	SBJ	_	7:A0
-7	bring	bring	VB	_	5	VC	bring.XX	_
-8	minimal	minimal	JJ	_	9	NMOD	_	_
-9	damage	damage	NN	_	7	OBJ	_	7:A1
-10	.	.	.	_	5	P	_	_
+Index\tWord 
+1	Thinking	think	VBG	_	5	DEP	think.XX	_ <br/>
+2	of	of	IN	_	1	ADV	_	1:A1 <br/>
+3	Gustav	gustav	NNP	_	2	PMOD	_	_ <br/>
+4	.	.	.	_	1	P	_	_ <br/>
+5	May	may	MD	_	0	ROOT	_	7:AM-MOD <br/>
+6	it	it	PRP	_	5	SBJ	_	7:A0 <br/>
+7	bring	bring	VB	_	5	VC	bring.XX	_ <br/>
+8	minimal	minimal	JJ	_	9	NMOD	_	_ <br/>
+9	damage	damage	NN	_	7	OBJ	_	7:A1 <br/>
+10	.	.	.	_	5	P	_	_ <br/>
 
 Here, the verbs are "think", indexed 1, and "bring", indexed 7. The phrase "of Gustav" is the ARG1 of "think", marked by the index of the verb on "of": 1:A1. "May" is a modal (MOD) modifier of "bring", marked 7:AM-MOD. The pronoun "it" is the ARG0 of bring (7:A0), and the phrase "minimal damage" is the ARG1 of bring (7:A1 on "damage").
 
