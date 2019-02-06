@@ -63,14 +63,15 @@ Semantic Role Labelling involves annotation of the important semantic entities w
 
 For example, consider the following tweet:<br/>
 
-Index\tWord 
-1	Thinking	think	VBG	_	5	DEP	think.XX	_ <br/>
-2	of	of	IN	_	1	ADV	_	1:A1 <br/>
-3	Gustav	gustav	NNP	_	2	PMOD	_	_ <br/>
-4	.	.	.	_	1	P	_	_ <br/>
-5	May	may	MD	_	0	ROOT	_	7:AM-MOD <br/>
-6	it	it	PRP	_	5	SBJ	_	7:A0 <br/>
-7	bring	bring	VB	_	5	VC	bring.XX	_ <br/>
+<table>
+  <tr><td>Index</td><td>Word</td><td>Lemma</td><td>POS</td><td>-</td><td>Head</td><td>Dep. Relation</td><td>PB Verb</td><td>Semantic Role</td></tr>
+<tr><td>1</td><td>Thinking</td><td>think</td><td>VBG</td><td>_</td><td>5</td><td>DEP</td><td>think.XX</td><td>_</td></tr>
+<tr><td>2</td><td>of</td><td>of</td><td>IN</td><td>_</td><td>1</td><td>ADV</td><td>_</td><td>1:A1</td></tr>
+<tr><td>3</td><td>Gustav</td><td>gustav</td><td>NNP</td><td>_</td><td>2</td><td>PMOD</td><td>_</td><td>_</td></tr>
+  <tr><td>4</td><td>.</td><td>.</td><td>.</td><td>_</td><td>1</td><td>P</td><td>_</td><td>_</td></tr>
+<tr><td>5</td><td>May</td><td>may</td><td>MD</td><td>_</td><td>0</td><td>ROOT</td><td>_</td><td>7:AM-MOD</td></tr>
+<tr><td>6</td><td>it</td><td>it</td><td>PRP</td><td>_</td><td>5</td><td>SBJ</td><td>_</td><td>7:A0</td></tr>
+<tr><td>7</td><td>bring</td><td>bring</td><td>VB</td><td>_</td><td>5</td><td>VC</td><td>bring.XX</td><td>_</td></tr>
 8	minimal	minimal	JJ	_	9	NMOD	_	_ <br/>
 9	damage	damage	NN	_	7	OBJ	_	7:A1 <br/>
 10	.	.	.	_	5	P	_	_ <br/>
@@ -80,8 +81,7 @@ Here, the verbs are "think", indexed 1, and "bring", indexed 7. The phrase "of G
 
 
 # Behavioral Annotation
-This data is based on the paper <a href="https://pdfs.semanticscholar.org/7867/159013a9c10661fbfe8619a9c1cc76c3012c.pdf
->Natural Language Processing to the Rescue? Extracting “Situational Awareness” Tweets During Mass Emergency</a>. They collected four datasets of 500 tweets each. These datasets overlap with the named entity annotation, and include the two Red River Floods (2009, 2010), the Oklahoma wildfire, and the Haiti Earthquake. These tweets were annotated with 'behavioral' categories:
+This data is based on the paper <a href="https://pdfs.semanticscholar.org/7867/159013a9c10661fbfe8619a9c1cc76c3012c.pdf">Natural Language Processing to the Rescue? Extracting “Situational Awareness” Tweets During Mass Emergency</a>. They collected four datasets of 500 tweets each. These datasets overlap with the named entity annotation, and include the two Red River Floods (2009, 2010), the Oklahoma wildfire, and the Haiti Earthquake. These tweets were annotated with 'behavioral' categories:
 
 <ul>
   <li>Situational Awareness: whether they contribute to user's awareness of the event </li>
@@ -91,6 +91,8 @@ This data is based on the paper <a href="https://pdfs.semanticscholar.org/7867/1
 </ul>
 
 These categories are annotated at the tweet level: each tweet has four annotations for each of the above categories. Like the named entity data, we include only tweet IDs and annotations. Unfortunately, the original IDs for the Oklahoma dats were not maintained, and this data is currently unavailable. We are looking into ways of releasing it publically in a consistent and ethical fashion.
+
+
 For any questions, please contact<br>
 Kevin Stowe<br>
 kevin.stowe@colorado.edu<br>
