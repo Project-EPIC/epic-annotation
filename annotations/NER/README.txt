@@ -34,9 +34,7 @@ Winter_Storm_Nemo.json : 402
 Total : 18081
 *Total : 3610
 
-* - These datasets weren't annotated with accurate Tweet IDs. These
-datasets will not be recoverable from the Twitter API. They are included
-with text for CU use. We are looking into possibilities for restoring
+* - These datasets may not have been collected with accurate Tweet IDs, and thus they may not be recoverable from the Twitter API. We are looking into possibilities for restoring
 accurate tweet ids.
 
 ------------------------------------------------------------------------
