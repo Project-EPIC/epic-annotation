@@ -46,8 +46,7 @@ Keys : Tweet_Ids<br/>
 data[key] = <br/>
   {"tweet_id":tweet_id_string<br/>
   "event":event_name<br/>
-  "anns":list of tuples consisting of [span_start, span_end,</br>
-  named_entity_category]<br/>
+  "anns":list of tuples consisting of [span_start, span_end, named_entity_category]<br/>
   }
 
 ------------------------------------------------------------------------
