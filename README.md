@@ -21,16 +21,16 @@ Based on these methods, named entities were tagged over the following events:
 The Events, with the number of tweets for each JSON:
 <ul>
   <li>Colorado Wildfires (2012) : 741</li>
-<li>Dallas Tornado (2012) : 475</li>
-<li>Haiti Earthquake : 480</li>
-<li>Highland Park Fire : 344</li>
-<li>Hurricane Sandy : 716</li>
-<li>Lower North Fork Fire : 239</li>
-<li>New Mexico Fire : 122</li>
-<li>New Zealand Earthquake : 1227</li>
-<li>Red River Flood (2009) : 12885</li>
-<li>Red River Flood (2010) : 450</li>
-<li>Winter Storm Nemo : 402</li>
+  <li>Dallas Tornado (2012) : 475</li>
+  <li>Haiti Earthquake : 480</li>
+  <li>Highland Park Fire : 344</li>
+  <li>Hurricane Sandy : 716</li>
+  <li>Lower North Fork Fire : 239</li>
+  <li>New Mexico Fire : 122</li>
+  <li>New Zealand Earthquake : 1227</li>
+  <li>Red River Flood (2009) : 12885</li>
+  <li>Red River Flood (2010) : 450</li>
+  <li>Winter Storm Nemo : 402</li>
 </ul>
 
 Total : 18081
