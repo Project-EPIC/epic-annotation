@@ -1,5 +1,4 @@
-# epic-annotation
-**SRL Data for Hurricane Gustav and the Red River floods now available in annotations/SRL**
+# Epic Annotation Overview
 
 Annotation data released under Project Epic. For annotation related to the CHIME grant, see https://github.com/Project-EPIC/chime-annotation. We're still working on the collected data; here's what is and what will be available:
 
