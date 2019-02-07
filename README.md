@@ -37,7 +37,7 @@ Total : 18081
 
 Some of these datasets may not have been collected with accurate Tweet IDs, and thus they may not be recoverable from the Twitter API. We are looking into possibilities for restoring accurate tweet ids, or releasing the data with raw text.
 
-These tweess are annotated with named entity tags based on the <a href="https://www.ldc.upenn.edu/sites/www.ldc.upenn.edu/files/english-entities-guidelines-v6.6.pdf">Automatic Content Extraction guidelines</a> for entities. The tags annotated are:
+These tweets are annotated with named entity tags based on the <a href="https://www.ldc.upenn.edu/sites/www.ldc.upenn.edu/files/english-entities-guidelines-v6.6.pdf">Automatic Content Extraction guidelines</a> for entities. The tags annotated are:
 
 <ul>
   <li>PERSON</li>
