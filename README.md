@@ -21,23 +21,22 @@ This annotation is based on the paper <a href="http://www.lrec-conf.org/proceedi
 Based on these methods, named entities were tagged over the following events:
 The Events, with the number of tweets for each JSON:
 <ul>
-  <li>*Colorado_Wildfires_June_2012.json : 741</li>
-<li>*Dallas_Tornado_April_2012.json : 475</li>
-<li>*Haiti_Earthquake.json : 480</li>
-<li>*High_Park_Fire.json : 344</li>
-<li>Hurricane_Sandy_Random_Tweets.json : 716</li>
-<li>Lower_North_Fork_Fire.json : 239</li>
-<li>New_Mexico_Fire_June_2012.json : 122</li>
-<li>New_Zealand_Earthquake.json : 1227</li>
-<li>Red_River_2009.json : 12885</li>
-<li>Red_River_2010.json : 450</li>
-<li>Winter_Storm_Nemo.json : 402</li>
+  <li>Colorado Wildfires (2012) : 741</li>
+<li>Dallas Tornado (2012) : 475</li>
+<li>Haiti Earthquake : 480</li>
+<li>Highland Park Fire : 344</li>
+<li>Hurricane Sandy : 716</li>
+<li>Lower North Fork Fire : 239</li>
+<li>New Mexico Fire : 122</li>
+<li>New Zealand Earthquake : 1227</li>
+<li>Red River Flood (2009) : 12885</li>
+<li>Red River Flood (2010) : 450</li>
+<li>Winter Storm Nemo : 402</li>
 </ul>
 
 Total : 18081
 
-* These datasets may not have been collected with accurate Tweet IDs, and thus they may not be recoverable from the Twitter API. We are looking into possibilities for restoring
-accurate tweet ids.
+Some of these datasets may not have been collected with accurate Tweet IDs, and thus they may not be recoverable from the Twitter API. We are looking into possibilities for restoring accurate tweet ids, or releasing the data with raw text.
 
 These tweess are annotated with named entity tags based on the <a href="https://www.ldc.upenn.edu/sites/www.ldc.upenn.edu/files/english-entities-guidelines-v6.6.pdf">Automatic Content Extraction guidelines</a> for entities. The tags annotated are:
 
