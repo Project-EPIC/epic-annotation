@@ -1,4 +1,4 @@
-# <a href="https://github.com/Project-EPIC/epic-annotation/tree/master/annotations/POS/">Part of Speech Annotation</a>
+# Part of Speech Annotation
 This annotation is simple part of speech tags for collections of tweets surrounding multiple events. This annotation was done by using an automatic POS tagger, and the output was then hand corrected. The datasets we include and number of tweets for each are as follows:
 
 <ul>
