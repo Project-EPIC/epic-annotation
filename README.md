@@ -4,17 +4,28 @@ Annotation data released under Project Epic. For annotation related to the CHIME
 
 <table>
   <tr><td>Dataset</td><td># of Tweets</td></tr>
+  <tr><td>Part-of-speech tagging for a variety of events</td><td/>32,626</tr>
   <tr><td>Named Entity Annotation for 10 different events</td><td>18,081</tr>
   <tr><td>Behavioral Annotation (from  <a href="http://www.aaai.org/ocs/index.php/ICWSM/ICWSM11/paper/download/2834/3282">Verma et al (ICWSM 2011)</a>) for 3 events</td><td>1,500</td></tr>
   <tr><td>Semantic role labeling (Gustav, Red River)</td><td>32,912 lines</tr>
-  <tr><td>*Part-of-speech tagging for a variety of events</td><td/></tr>
 </table>
-*Will be available soon<br>
 
-The data provided includes only annotations, and not original tweets, in order to attempt to honor privacy concerns of potentially sensitive information. We've included tools for accessing the original tweets via Twitter: please see the <a href="https://github.com/Project-EPIC/epic-annotation/blob/master/Epic%20Tweet%20Documentation.pdf">Epic Tweet Documentation</a>. We've released SRL data for Hurricane Gustav and the Red River floods with the original text, as we were unable to reconstruct the SRL information using only Tweet IDs.
+For the Named Entity and Behavioral Annotation, we can only provide includes only annotations, and not original tweets, in order to attempt to honor privacy concerns of potentially sensitive information. The original tweets can be accessed through Twitter: we've included tools to facilitate this: please see the <a href="https://github.com/Project-EPIC/epic-annotation/blob/master/Epic%20Tweet%20Documentation.pdf">Epic Tweet Documentation</a>. 
 
+# <a href="https://github.com/Project-EPIC/epic-annotations/annotations/POS/">Part of Speech Annotation</a>
+This annotation is simple part of speech tags for collections of tweets surrounding multiple events. This annotation was done by using an automatic POS tagger, and the output was then hand corrected. The datasets we include and number of tweets for each are as follows:
 
-# Named Entity Annotation
+<ul>
+  <li> Dallas Tornado (2012) : 850</li>
+  <li> Haiti Earthquake : 487</li>
+  <li> Hurricane Gustav : 1,000</li>
+  <li> Highland Park Fire : 700</li>
+  <li> New Zealand Earthquake : 14,800</li>
+  <li> Oklahmoa Fires : 449</li>
+  <li> Red River Floods (2009 and 2010): 14,340</li>
+</ul>
+
+# <a href="https://github.com/Project-EPIC/epic-annotations/annotations/NER/">Named Entity Annotation</a>
 This annotation is based on the paper <a href="http://www.lrec-conf.org/proceedings/lrec2012/pdf/1008_Paper.pdf">Foundations of a Multilayer Annotation Framework for Twitter</a>. They describe collection of tweets for five events, searching on certain hand-curated keywords. These were then filtered down into usable datasets. For a full description of the data collection process, see <a href="https://ieeexplore.ieee.org/document/6032533">Anderson and Schram, 2009</a>.
 
 Based on these methods, named entities were tagged over the following events:
@@ -48,7 +59,7 @@ These tweets are annotated with named entity tags based on the <a href="https://
 </ul>
  These annotations are provided along with the span of text for the tweet annotated. For information on how to extract the original tweet texts, please see the <a href="https://github.com/Project-EPIC/epic-annotation/blob/master/Epic%20Tweet%20Documentation.pdf">Epic Tweet Documentation</a>.
 
-# Semantic Role Labelling
+# <a href="https://github.com/Project-EPIC/epic-annotations/annotations/SRL/"> Semantic Role Labelling</a>
 
 Semantic Role Labelling involves annotation of the important semantic entities within a sentence and the syntactic relations between them. More generally, we aim to identify who did what to whom. The SRL data annotated for Project EPIC is over two events: Hurricane Gustiv and the Red River floods. This data is based on <a href="http://clear.colorado.edu/compsem/documents/propbank_guidelines.pdf">PropBank annotation</a>, and is presented in an Excel style format. Each line contains a word, along with the word's index in the tweet, part of speech, dependency relation and semantic role. The semantic roles are the final column: they indicate the verb that the word is a role of (via it's index), as well as the type of argument. These types are:
 
