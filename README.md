@@ -105,6 +105,8 @@ This data is based on the paper <a href="https://pdfs.semanticscholar.org/7867/1
 
 These categories are annotated at the tweet level: each tweet has four annotations for each of the above categories. Like the named entity data, we include only tweet IDs and annotations. Unfortunately, the original IDs for the Oklahoma dats were not maintained, and this data is currently unavailable. We are looking into ways of releasing it publically in a consistent and ethical fashion.
 
+## <a href="https://scholar.colorado.edu/concern/graduate_thesis_or_dissertations/4b29b598d">Territory of Information/Evidentiality/Speech act annotation</a>
+This data was collected for Will Corvey's dissertation. It contains territory of information, evidentiality, and speech annotations for four different events: the Oklahoma fires, Haiti earthquake, and the Red River Flooding of '09 and '10. 
 
 For any questions, please contact<br>
 Kevin Stowe<br>
