@@ -8,6 +8,7 @@ Annotation data released under Project Epic. For annotation related to the CHIME
   <tr><td>Named Entity Annotation for 10 different events</td><td>18,081</tr>
   <tr><td>Behavioral Annotation (from  <a href="http://www.aaai.org/ocs/index.php/ICWSM/ICWSM11/paper/download/2834/3282">Verma et al (ICWSM 2011)</a>) for 3 events</td><td>1,500</td></tr>
   <tr><td>Semantic role labeling (Gustav, Red River)</td><td>32,912 lines</tr>
+  <tr><td><a href="https://scholar.colorado.edu/concern/graduate_thesis_or_dissertations/4b29b598d">Territory of Information/Evidentiality/Speech act annotation</a></td><td>500 tweets for 4 events</td></tr>
 </table>
 
 For the Named Entity and Behavioral Annotation, we can only provide includes only annotations, and not original tweets, in order to attempt to honor privacy concerns of potentially sensitive information. The original tweets can be accessed through Twitter: we've included tools to facilitate this: please see the <a href="https://github.com/Project-EPIC/epic-annotation/blob/master/Epic%20Tweet%20Documentation.pdf">Epic Tweet Documentation</a>. 
